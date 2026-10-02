@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- This page is the post-submission confirmation for the contact form
+         on the homepage. It has no value in search results, so it is kept
+         out of them. It must stay reachable: if it is ever renamed, the
+         form's action="/thanks.html" has to be updated in the same
+         commit, otherwise a submitted form lands on a 404. -->
+    <meta name="robots" content="noindex, follow" />
+
+    <title>Message sent &mdash; Khrystyna Donik</title>
+    <meta
+      name="description"
+      content="Your enquiry has been received. Khrystyna replies to every message within one business day with a flat price and a plan for the session."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              rose: { DEFAULT: "#C98B8B", dark: "#B07676", soft: "#2A1D1D" },
+              ink: { DEFAULT: "#F4EFE7", muted: "#A39C90" },
+              paper: { DEFAULT: "#FAF9F6", muted: "#5E5E58" },
+              line: "#E7E7E1",
+              espresso: "#131311",
+              cream: "#F4EFE7",
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+              display: [
+                "Sora",
+                "Inter",
+                "ui-sans-serif",
+                "system-ui",
+                "sans-serif",
+              ],
+              editorial: ["Georgia", "'Times New Roman'", "Times", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      .frame-no {
+        font-family: Georgia, "Times New Roman", serif;
+        letter-spacing: 0.22em;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+      }
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid #c98b8b;
+        outline-offset: 3px;
+        border-radius: 2px;
+      }
+    </style>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body class="bg-espresso font-sans text-ink antialiased">
+    <header class="border-b border-white/10">
+      <div class="mx-auto flex h-[4.5rem] max-w-3xl items-center px-5 sm:px-8">
+        <a
+          href="/"
+          class="flex items-center gap-2.5"
+          aria-label="Khrystyna Donik — back to the homepage"
+        >
+          <span
+            class="flex h-9 w-9 items-center justify-center rounded-sm bg-rose font-display text-sm font-semibold text-espresso"
+            >KD</span
+          >
+          <span
+            class="font-display text-[0.95rem] font-semibold tracking-tight text-ink"
+            >Khrystyna&nbsp;Donik</span
+          >
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="mx-auto max-w-3xl px-5 py-20 sm:px-8 sm:py-24">
+          <p class="inline-flex items-center gap-2 rounded-full border border-rose/30 bg-rose-soft px-3.5 py-1.5 frame-no text-rose">
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+            Message received
+          </p>
+
+          <h1 class="mt-6 font-display text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">
+            Thanks &mdash; your message is in.
+          </h1>
+
+          <p class="mt-6 text-lg leading-relaxed text-ink-muted">
+            I read every enquiry myself and reply
+            <strong class="text-ink">within one business day</strong> with a
+            flat price and a plan. There is no obligation and no sales
+            pressure &mdash; if the honest answer is that you need less
+            session than you asked for, that is what I will tell you.
+          </p>
+
+          <div class="mt-10 rounded-sm border border-white/10 bg-white/5 p-6 sm:p-8">
+            <h2 class="font-display text-base font-semibold tracking-tight text-ink">
+              What happens next
+            </h2>
+            <ol class="mt-5 space-y-4">
+              <li class="flex gap-3.5">
+                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-soft font-display text-xs font-semibold text-rose">1</span>
+                <p class="text-sm leading-relaxed text-ink-muted">
+                  I read your message and work out what you actually need
+                  &mdash; which is sometimes a smaller session than you
+                  expected.
+                </p>
+              </li>
+              <li class="flex gap-3.5">
+                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-soft font-display text-xs font-semibold text-rose">2</span>
+                <p class="text-sm leading-relaxed text-ink-muted">
+                  I reply with the flat price, the timing, and a short
+                  styling note so you know what to wear and what to expect.
+                </p>
+              </li>
+              <li class="flex gap-3.5">
+                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-soft font-display text-xs font-semibold text-rose">3</span>
+                <p class="text-sm leading-relaxed text-ink-muted">
+                  If you want to go ahead, a $75 retainer locks your date
+                  &mdash; and nothing else is charged until the session
+                  happens.
+                </p>
+              </li>
+            </ol>
+          </div>
+                  <p class="mt-8 text-sm leading-relaxed text-ink-muted">
+            Sent by mistake, or something changed?
+            <a
+              href="mailto:christinadonik@gmail.com"
+              class="font-medium text-rose underline-offset-4 transition hover:underline"
+              >Email me directly</a
+            >
+            and I will take care of it.
+          </p>
+
+          <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a
+              href="/"
+              class="inline-flex items-center justify-center rounded-sm bg-rose px-6 py-3.5 text-sm font-semibold text-espresso transition hover:-translate-y-px hover:bg-rose-dark hover:text-cream"
+              >Back to the portfolio</a
+            >
+            <a
+              href="/#sessions"
+              class="inline-flex items-center justify-center rounded-sm border border-cream/25 px-6 py-3.5 text-sm font-semibold text-cream transition hover:-translate-y-px hover:border-rose hover:text-rose"
+              >See every session and price</a
+            >
+            <a
+              href="/#stories"
+              class="inline-flex items-center justify-center px-2 py-3.5 text-sm font-semibold text-ink-muted underline-offset-4 transition hover:text-rose hover:underline"
+              >Explore the session stories &rarr;</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10">
+      <div class="mx-auto flex max-w-3xl flex-col gap-2 px-5 py-10 sm:px-8">
+        <p class="text-sm text-ink-muted">
+          &copy; 2026 Khrystyna Donik. All rights reserved.
+        </p>
+        <p class="text-sm text-ink-muted">
+          Business and family photography across the Niagara Region.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

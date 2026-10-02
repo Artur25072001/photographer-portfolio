@@ -1,0 +1,17 @@
+{
+  "name": "Khrystyna Donik — Photography",
+  "short_name": "KD Photo",
+  "description": "Business and family photography across the Niagara Region: flat-price sessions shot on location and edited by hand.",
+  "start_url": "/",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#131311",
+  "background_color": "#131311",
+  "display": "standalone"
+}

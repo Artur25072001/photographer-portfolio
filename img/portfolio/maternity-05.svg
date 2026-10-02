@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Maternity - placeholder frame 05">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#201C15"/>
+      <stop offset="1" stop-color="#121110"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <circle cx="600" cy="450" r="270" fill="#1A1712"/>
+  <circle cx="600" cy="450" r="346" fill="none" stroke="#C98B8B" stroke-opacity="0.40" stroke-width="2"/>
+  <circle cx="600" cy="450" r="216" fill="none" stroke="#C98B8B" stroke-opacity="0.22" stroke-width="1.5"/>
+  <text x="50%" y="423" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="5" fill="#F4EFE7">Maternity</text>
+  <text x="50%" y="504" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" letter-spacing="4" fill="#C98B8B">FRAME 05 - 4:3</text>
+  <text x="50%" y="837" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3" fill="#6E6A60">PLACEHOLDER - REPLACE WITH A REAL PHOTOGRAPH</text>
+</svg>

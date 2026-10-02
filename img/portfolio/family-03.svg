@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Family - placeholder frame 03">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#201C15"/>
+      <stop offset="1" stop-color="#121110"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <circle cx="450" cy="600" r="360" fill="#1A1712"/>
+  <circle cx="450" cy="600" r="462" fill="none" stroke="#C98B8B" stroke-opacity="0.40" stroke-width="2"/>
+  <circle cx="450" cy="600" r="288" fill="none" stroke="#C98B8B" stroke-opacity="0.22" stroke-width="1.5"/>
+  <text x="50%" y="564" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="5" fill="#F4EFE7">Family</text>
+  <text x="50%" y="672" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" letter-spacing="4" fill="#C98B8B">FRAME 03 - 3:4</text>
+  <text x="50%" y="1116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" fill="#6E6A60">PLACEHOLDER - REPLACE WITH A REAL PHOTOGRAPH</text>
+</svg>

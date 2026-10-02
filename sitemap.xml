@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Single-page site, single URL. The session stories (#story-*) are hash
+  fragments of this one page, not separate pages, so they stay out of the
+  sitemap on purpose.
+
+  UPDATE-ME: if the site moves to its own domain, change the <loc> below and
+  the Sitemap line in robots.txt together, plus canonical/og:url in
+  index.html.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://khrystyna-donik-photography.netlify.app/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

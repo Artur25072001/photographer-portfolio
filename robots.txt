@@ -1,0 +1,14 @@
+# Photography portfolio: Khrystyna Donik — business & family photography
+# for the Niagara Region.
+#
+# This is the real site, so it is meant to be indexed and crawling is open.
+User-agent: *
+Allow: /
+
+# The session stories (#story-family, #story-newborn, ...) are fragments of
+# the single homepage, not separate pages, so they are deliberately not
+# listed in the sitemap: a sitemap should only contain canonical URLs.
+#
+# UPDATE-ME: if this site moves to its own domain, change the line below and
+# the <loc> in sitemap.xml together, plus canonical/og:url in index.html.
+Sitemap: https://khrystyna-donik-photography.netlify.app/sitemap.xml
